@@ -1,0 +1,238 @@
+.landing {
+  /* background-color: #007bff; */
+  padding: 20px;
+}
+.containeritem {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.first-hd1 {
+  margin-top: 6vh;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+}
+
+.form-control {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.btn-outline-secondary {
+  background-color: #ff4141;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn-outline-secondary:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.d-flex.hy-4.customFlex {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  /* margin-top: 30px; */
+  /* margin: 0px 20px; */
+}
+
+.mainCard {
+  width: 21%;
+  margin-bottom: 30px;
+}
+
+.card2 {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.card-body1 {
+  margin-top: 10px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.btnitem {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2vh;
+}
+
+.btnitem:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .mainCard {
+    width: 48%;
+  }
+}
+
+
+.my-4.card2 {
+  height: 50vh;
+  width: 24vw;
+}
+
+#sort {
+  width: 69.5vw;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .d-flex.hy-4.customFlex {
+    flex-wrap: wrap;
+    
+  }
+
+  .mainCard {
+    width: 33.33%;
+  }
+
+  .mainCard:nth-child(3n+1) {
+    clear: left;
+  }
+}
+
+@media (max-width: 390px) {
+  .mainCard {
+    width: 100%;
+  }
+}
+
+.outOfStock {
+  background-color: rgb(255, 0, 0);
+  /* Add any other desired styles */
+}
+
+
+
+@media (max-width: 428px) {
+  .mainCard {
+    flex: 0 0 calc(50% - 2rem);
+    max-width: calc(50% - 2rem);
+  }
+  /* items.css */
+
+.containeritem {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.first-hd1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  width: 100%;
+}
+
+.form-control {
+  width: 100%;
+  border-radius: 0;
+}
+
+.customFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mainCard {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin: 1rem;
+}
+
+.card2 {
+  position: relative;
+  text-align: center;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-body1 {
+  padding: 1rem 0;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.btnitem {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+.my-4.card {
+  margin-left: -7vw;
+  height: 55vh;
+  width: 88vw;
+}
+}

@@ -1,0 +1,38 @@
+.box{
+    height: 100vh;
+    background-color: #f3f3f3;
+    padding-top: 15%;
+}
+.box-img img {
+    width: 100%;
+    height: 100vh;
+}
+
+.rm-pd {
+    padding: 0;
+}
+.box h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 55px;
+}
+
+.box p {
+    text-align: center;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 0 120px;
+}
+@media only screen and (max-width: 480px) {
+    .box p {
+        text-align: center;
+        font-family: cursive;
+        font-size: 18px;
+        padding: 0 20px;
+    }
+    .box-img img {
+        width: 100%;
+        height: 100vh;
+        margin-top: 100px;
+    }
+}

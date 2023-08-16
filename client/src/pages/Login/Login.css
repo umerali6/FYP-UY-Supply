@@ -1,0 +1,88 @@
+/* Login.css */
+
+.container {
+    padding-top: 5%;
+  }
+  
+  .cardlogin {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    padding: 30px;
+  }
+  
+  .h4 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .cardlogin img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .form-group-md-3 label {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .input-error {
+    border-color: #f44336 !important;
+  }
+  
+  .error {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .btn-dark {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .btn-dark:hover {
+    background-color: #111;
+    cursor: pointer;
+  }
+  
+  .Signup,
+  .forgotlink {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  
+  .Signup a:hover,
+  .forgotlink a:hover {
+    color: #111;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .cardlogin {
+      margin-top: 20px;
+    }
+  }
+  
+
+  .Signup, .forgotlink {
+    margin-top: 20px;
+    margin-left: -8.5vw;
+}

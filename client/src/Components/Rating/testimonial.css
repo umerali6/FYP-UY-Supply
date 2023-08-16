@@ -1,0 +1,123 @@
+.landing {
+    background-color: #007bff;
+    padding: 20px;
+  }
+  .containeritem {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .my-4.card2 {
+    height: 50vh;
+    width: 24vw;
+    margin-left: -6vw;
+}
+  .first-hd1 {
+    margin-top: 6vh;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+  }
+  
+  .form-control {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .btn-outline-secondary {
+    background-color: #ff4141;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btn-outline-secondary:hover {
+    background-color: #fff;
+    color: #007bff;
+  }
+  
+  .d-flex.hy-4.customFlex {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* margin-top: 30px; */
+    /* margin: 0px 20px; */
+  }
+  
+  .mainCard1 {
+    width: 21%;
+    margin-bottom: 30px;
+  }
+  
+  .card2 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .card-img-top {
+    max-height: 200px;
+    object-fit: contain;
+  }
+  
+  .card-body1 {
+    margin-top: 10px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    margin-bottom: 10px;
+  }
+  
+  .btnitem {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 2vh;
+  }
+  
+  .btnitem:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  /* testimonial.css */
+
+@media (max-width: 390px) { /* Adjust the breakpoint as needed */
+  .mainCard1 {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .my-4.card2 {
+    height: 50vh;
+    width: 86vw;
+    margin-left: -6vw;
+}
+.react-stars-wrapper-08024991184645744 {
+  margin-left: 22vw;
+}
+
+
+}
